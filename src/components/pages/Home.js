@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/image/video-list-4.jpg";
+import FarmerBio from "./FarmerBio";
 
 class Home extends React.Component {
   render() {
@@ -44,6 +45,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <FarmerBio> </FarmerBio>
       </>
     );
   }
