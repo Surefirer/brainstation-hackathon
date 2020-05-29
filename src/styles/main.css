@@ -12,6 +12,56 @@
   padding-top: 10px;
 }
 
+.header_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e2e24f;
+}
+
+.header_title .header_locationImg {
+  width: 25px;
+}
+
+.searchBar .searchBar-img {
+  position: absolute;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+
+.header_locationImg {
+  padding-right: 5px;
+}
+
+.searchBar-input {
+  border: 2px solid #e2e24f;
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+.searchBar-input::-webkit-input-placeholder {
+  padding-left: 20px;
+}
+
+.searchBar-input:-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+.searchBar-input::-ms-input-placeholder {
+  padding-left: 20px;
+}
+
+.searchBar-input::placeholder {
+  padding-left: 20px;
+}
+
+.searchBar-img {
+  width: 15px;
+}
+
 .category {
   width: 100%;
 }
@@ -29,27 +79,113 @@
 
 .card {
   width: 254px;
-  height: 200px;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 10px auto;
   padding: 20px 0;
-  border: 3px dotted black;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .card img {
-  width: 200px;
+  width: 70px;
+  height: 70px;
+}
+
+.header_locationImg {
+  width: 10px;
+}
+
+.description {
+  width: 150px;
+  padding-left: 10px;
+}
+
+.description p {
+  font-size: 0.5rem;
+}
+
+.hero {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hero img {
+  width: 80%;
+  border-radius: 50px 50px 50px 0;
+}
+
+.nearYou_card {
+  width: 100px;
+  height: 150px;
+  border: 2px solid #bdbbbb;
+  border-radius: 5px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nearYou {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nearYou h4 {
+  color: #e2e24f;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.nearYou_card__img img {
+  width: 70px;
+  height: 70px;
+}
+
+.nearYou_card__adress {
+  font-size: 10px;
+}
+
+.subscriptions-card {
+  padding: 10px;
+}
+
+.subscriptions-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.subscriptions-cardWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 Html,
