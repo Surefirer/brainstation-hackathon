@@ -17,6 +17,7 @@ class Home extends React.Component {
             </ul>
           </div>
         </div>
+
         <div className="main">
           <div className="card">
             <div className="img">
