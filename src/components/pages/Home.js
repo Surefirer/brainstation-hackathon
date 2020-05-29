@@ -7,7 +7,7 @@ class Home extends React.Component {
       <>
         <div className="header">
           <div className="farmers">
-            <h2>Farmers filter</h2>
+            <h2>Farmers</h2>
           </div>
           <div className="category">
             <ul>
@@ -19,19 +19,25 @@ class Home extends React.Component {
         </div>
         <div className="main">
           <div className="card">
-            <img src={image} alt="" />
+            <div className="img">
+              <img src={image} alt="" />
+            </div>
             <div className="description">
               <p>some text</p>
             </div>
           </div>
           <div className="card">
-            <img src={image} alt="" />
+            <div className="img">
+              <img src={image} alt="" />
+            </div>
             <div className="description">
               <p>some text</p>
             </div>
           </div>
           <div className="card">
-            <img src={image} alt="" />
+            <div className="img">
+              <img src={image} alt="" />
+            </div>
             <div className="description">
               <p>some text</p>
             </div>
