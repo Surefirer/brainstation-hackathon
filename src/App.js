@@ -1,10 +1,17 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import FarmerPage from "./components/pages/FarmerPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Home Page</h1>
-    </div>
+    <Router>
+      <h1>Home page</h1>
+      <Switch>
+        <Route path="/" exact={true} componet={Home} />
+        <Route path="/farmerpage" componet={FarmerPage} />
+      </Switch>
+    </Router>
   );
 }
 
