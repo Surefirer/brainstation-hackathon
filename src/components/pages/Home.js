@@ -6,6 +6,7 @@ import greyImg from "../../assets/image/grey.jpg";
 import magnify from "../../assets/image/magnify.png";
 import image1 from "../../assets/image/1.jpg";
 import image2 from "../../assets/image/2.jpg";
+import image4 from "../../assets/image/4.jpg";
 
 class Home extends React.Component {
   render() {
@@ -31,7 +32,7 @@ class Home extends React.Component {
         </div>
 
         <div className="nearYou">
-          <h4>Markets near you</h4>
+          <h4>Farms near you</h4>
           <div className="container">
             <div className="nearYou_card">
               <div className="nearYou_card__img">
@@ -54,16 +55,16 @@ class Home extends React.Component {
           </div>
 
           <div className="subscriptions">
-            <h4>Subscriptions</h4>
+            <h4>Discounted produce</h4>
             <div className="subscriptions-cardWrapper">
               <div className="subscriptions-card">
-                <img src={greyImg} alt="" />
+                <img src={image4} alt="" />
               </div>
               <div className="subscriptions-card">
-                <img src={greyImg} alt="" />
+                <img src={image4} alt="" />
               </div>
               <div className="subscriptions-card">
-                <img src={greyImg} alt="" />
+                <img src={image4} alt="" />
               </div>
             </div>
           </div>
