@@ -1,12 +1,14 @@
 import React from "react";
-import image from "../../assets/image/video-list-4.jpg";
 import locationImg from "../../assets/image/noun_location_1047157.png";
 import heroImg from "../../assets/image/hero.png";
-import greyImg from "../../assets/image/grey.jpg";
 import magnify from "../../assets/image/magnify.png";
 import image1 from "../../assets/image/1.jpg";
-import image2 from "../../assets/image/2.jpg";
-import image4 from "../../assets/image/4.jpg";
+import image2 from "../../assets/image/2.png";
+import image3 from "../../assets/image/3.JPG";
+import image4 from "../../assets/image/4.png";
+import image5 from "../../assets/image/5.png";
+import image6 from "../../assets/image/6.jpg";
+import image7 from "../../assets/image/7.png";
 import userIcon from "../../assets/image/Shape.svg";
 
 class Home extends React.Component {
@@ -37,7 +39,7 @@ class Home extends React.Component {
 
         <div className="nearYou">
           <h4>Farms near you</h4>
-          <div className="container">
+          <div className="nearYou-container">
             <div className="nearYou_card">
               <div className="nearYou_card__img">
                 <img src={image1} alt="" />
@@ -49,7 +51,7 @@ class Home extends React.Component {
             </div>
             <div className="nearYou_card">
               <div className="nearYou_card__img">
-                <img src={image2} alt="" />
+                <img src={image3} alt="" />
               </div>
               <div className="nearYou_card__adress">
                 <p>Village Market</p>
@@ -62,13 +64,13 @@ class Home extends React.Component {
             <h4>Discounted produce</h4>
             <div className="subscriptions-cardWrapper">
               <div className="subscriptions-card">
-                <img src={image4} alt="" />
+                <img src={image6} alt="" />
               </div>
               <div className="subscriptions-card">
-                <img src={image4} alt="" />
+                <img src={image5} alt="" />
               </div>
               <div className="subscriptions-card">
-                <img src={image4} alt="" />
+                <img src={image2} alt="" />
               </div>
             </div>
           </div>

@@ -99,18 +99,19 @@
 }
 
 .nearYou_card {
-    width: 100px;
-    height: 150px;
-    border: 2px solid rgb(189, 187, 187);
+    width: 150px;
+    height: 140px;
+    border: 2px solid rgb(226, 226, 79);
     border-radius: 5px;
-    margin-left: 20px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.container {
+.nearYou-container {
+    width: 100%;
     display: flex;
 }
 
@@ -119,6 +120,7 @@
     margin: 0 auto;
     h4 {
         color: rgb(226, 226, 79);
+        font-weight: 400;
         margin-top: 20px;
         margin-bottom: 5px;
     }
