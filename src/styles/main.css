@@ -12,6 +12,17 @@
   padding-top: 10px;
 }
 
+.userIcon {
+  width: 80%;
+  text-align: right;
+  position: absolute;
+}
+
+.userIcon img {
+  width: 30px;
+  padding-top: 10px;
+}
+
 .header_title {
   display: -webkit-box;
   display: -ms-flexbox;

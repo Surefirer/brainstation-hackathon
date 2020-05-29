@@ -7,12 +7,16 @@ import magnify from "../../assets/image/magnify.png";
 import image1 from "../../assets/image/1.jpg";
 import image2 from "../../assets/image/2.jpg";
 import image4 from "../../assets/image/4.jpg";
+import userIcon from "../../assets/image/Shape.svg";
 
 class Home extends React.Component {
   render() {
     return (
       <>
         <div className="header">
+          <div className="userIcon">
+            <img src={userIcon} alt="userIcon" />
+          </div>
           <div className="header_title">
             <img className="header_locationImg" src={locationImg} alt="" />
             <h3>Toronto</h3>
